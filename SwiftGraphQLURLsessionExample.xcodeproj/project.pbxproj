@@ -11,7 +11,10 @@
 		4362D6F82909481A00A92FFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362D6F72909481A00A92FFC /* ContentView.swift */; };
 		4362D6FA2909481B00A92FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4362D6F92909481B00A92FFC /* Assets.xcassets */; };
 		4362D6FD2909481B00A92FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4362D6FC2909481B00A92FFC /* Preview Assets.xcassets */; };
-		4362D7042909483C00A92FFC /* GraphQLQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362D7032909483C00A92FFC /* GraphQLQueries.swift */; };
+		4362D70629094C7000A92FFC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362D70529094C7000A92FFC /* Post.swift */; };
+		4362D70829094CA700A92FFC /* GraphQLResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362D70729094CA700A92FFC /* GraphQLResult.swift */; };
+		4362D70A29094CC700A92FFC /* IDInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362D70929094CC700A92FFC /* IDInput.swift */; };
+		4362D70C29094CEB00A92FFC /* GraphQLOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4362D70B29094CEB00A92FFC /* GraphQLOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +23,10 @@
 		4362D6F72909481A00A92FFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4362D6F92909481B00A92FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4362D6FC2909481B00A92FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4362D7032909483C00A92FFC /* GraphQLQueries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLQueries.swift; sourceTree = "<group>"; };
+		4362D70529094C7000A92FFC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4362D70729094CA700A92FFC /* GraphQLResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLResult.swift; sourceTree = "<group>"; };
+		4362D70929094CC700A92FFC /* IDInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDInput.swift; sourceTree = "<group>"; };
+		4362D70B29094CEB00A92FFC /* GraphQLOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			children = (
 				4362D6F52909481A00A92FFC /* SwiftGraphQLURLsessionExampleApp.swift */,
 				4362D6F72909481A00A92FFC /* ContentView.swift */,
-				4362D7032909483C00A92FFC /* GraphQLQueries.swift */,
+				4362D70B29094CEB00A92FFC /* GraphQLOperation.swift */,
+				4362D70729094CA700A92FFC /* GraphQLResult.swift */,
+				4362D70929094CC700A92FFC /* IDInput.swift */,
+				4362D70529094C7000A92FFC /* Post.swift */,
 				4362D6F92909481B00A92FFC /* Assets.xcassets */,
 				4362D6FB2909481B00A92FFC /* Preview Content */,
 			);
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4362D7042909483C00A92FFC /* GraphQLQueries.swift in Sources */,
 				4362D6F82909481A00A92FFC /* ContentView.swift in Sources */,
 				4362D6F62909481A00A92FFC /* SwiftGraphQLURLsessionExampleApp.swift in Sources */,
+				4362D70A29094CC700A92FFC /* IDInput.swift in Sources */,
+				4362D70C29094CEB00A92FFC /* GraphQLOperation.swift in Sources */,
+				4362D70629094C7000A92FFC /* Post.swift in Sources */,
+				4362D70829094CA700A92FFC /* GraphQLResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
