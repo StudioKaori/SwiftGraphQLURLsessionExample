@@ -61,10 +61,7 @@
 			children = (
 				4362D6F52909481A00A92FFC /* SwiftGraphQLURLsessionExampleApp.swift */,
 				4362D6F72909481A00A92FFC /* ContentView.swift */,
-				4362D70B29094CEB00A92FFC /* GraphQLOperation.swift */,
-				4362D70729094CA700A92FFC /* GraphQLResult.swift */,
-				4362D70929094CC700A92FFC /* IDInput.swift */,
-				4362D70529094C7000A92FFC /* Post.swift */,
+				4362D70E29094D6900A92FFC /* GraphQL */,
 				4362D6F92909481B00A92FFC /* Assets.xcassets */,
 				4362D6FB2909481B00A92FFC /* Preview Content */,
 			);
@@ -77,6 +74,25 @@
 				4362D6FC2909481B00A92FFC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4362D70D29094D5C00A92FFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4362D70729094CA700A92FFC /* GraphQLResult.swift */,
+				4362D70929094CC700A92FFC /* IDInput.swift */,
+				4362D70529094C7000A92FFC /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4362D70E29094D6900A92FFC /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				4362D70B29094CEB00A92FFC /* GraphQLOperation.swift */,
+				4362D70D29094D5C00A92FFC /* Models */,
+			);
+			path = GraphQL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
